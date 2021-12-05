@@ -1,0 +1,26 @@
+/*
+qss注释格式
+    只有多行注释，没有单行注释
+    多行注释的格式和C语言、CSS一样
+
+    qss的语法遵从CSS，学习的时候可以参考CSS的语法
+
+*/
+
+/*应用于所有的QLabel控件*/
+QLabel{
+    font-size:25px;
+    color:green;
+}
+
+/*id选择器，匹配有notice属性的控件*/
+QLabel#notice{
+    font-size:30px;
+    color:blue;
+}
+
+/*id选择器，匹配有notice属性的控件*/
+QLabel#notice[notice_level="warning"]{
+    font-size:30px;
+    color:red;
+}
